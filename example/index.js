@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var sensorLib = require("node-dht-sensor");
+var sensorLib = require('./node_modules/node-dht-sensor/build/Release/node-dht-sensor');
 
 app.listen(process.env.PORT, process.env.IP, 0, function () {
   console.log('Example app listening!');
