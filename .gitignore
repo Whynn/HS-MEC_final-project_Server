@@ -1,2 +1,9 @@
+build
+*.egg-info
+*.pyc
+
+setuptools-*
+*.so
+
 # Logfiles
 *.log
